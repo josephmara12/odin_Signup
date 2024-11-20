@@ -8,18 +8,72 @@
 </head>
 <body>
 
-<div id = 'container-left'>
-<img src="leaf.jpg" id = 'leaf' alt="Leaf"> 
-<div class = 'odin'>
-    <img src="odin-lined.png" id = 'odin' alt="odin"> 
-    <p id = odin-text>ODIN</p>
-    </div>
+<div id = 'container-left'> 
+ <div class="logo-section">
+            <img src="bacchus.png" alt="Odin Logo"> <p id = 'b' >BACCHUS</p>
+        </div>
+<div class="credit">
+            Photo by <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a>
+</div>
 
 </div>
 
-<p id = 'credit'>Cred to Odin Project</p>  
+
 
 <div id = 'container-right'>
+    <div id = 'quote-right'>
+        <div id = 'quote-text'>
+        <strong>This is not a real online service! 
+        You know you need something <br>
+        like this in your life to help you realize your deepest dreams. <br>
+        Sign up <i>now</i> to get started. <br> <br>
+        You <i>know</i> you want to.</strong>
+        </div>
+    </div>
+
+    <div id = 'form'>
+    <p id = 'lets'>Lets do this! </p> 
+     <form>
+
+
+    <div class="form-row">
+    <p>
+    <label for="firstname">First Name:</label>
+    <input type="text" id="firstname" name="firstname" />
+    </p>
+    <p>
+    <label for="mail">Email:</label>
+    <input type="email" id="mail" name="user_email" />
+    </p>
+    <p>
+    <label for="password-confirm" >Confirm Password:</label>
+    <input type="password" id="password-confirm" name="password-confirm"  required/>
+    </p>
+    </div>
+
+
+    <div class="form-row">
+     <p>
+    <label for="lastname">Last Name:</label>
+    <input type="text" id="lastname" name="lastname" />
+    </p>
+    <p>
+    <label for="phone">Phone Number:</label>
+    <input type="tel" pattern="^\+61\s\d{3}\s\d{3}\s\d{3}$"
+         placeholder="+61 _ _ _ _ _ _ _ _ _" id="phone" name="phone" />
+    </p>
+    <p>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required/>
+    </p>
+    </div>   
+
+
+    </form>
+    </div>
+   
+<div id = 'bottom-section'></div>
+
 
 </div>
 
